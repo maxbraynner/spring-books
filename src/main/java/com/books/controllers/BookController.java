@@ -19,7 +19,7 @@ public class BookController {
 	}
 
 	@GetMapping
-	public Iterable<Book> lisBoobks() {
+	public Iterable<Book> listBooks() {
 		return bookRepository.findAll();
 	}
 	
